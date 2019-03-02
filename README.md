@@ -12,6 +12,9 @@ docker-compose build
 docker-compose up
 ```
 
+## Output (screenshots)
+- Your screenshots will be saved on you local system, under the ~/Desktop/temp folder.
+
 ## Stopping and Removing Docker containers
 - Open a terminal window and enter the following command
 
