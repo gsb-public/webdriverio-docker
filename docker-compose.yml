@@ -1,0 +1,13 @@
+app:
+  build: .
+  command: npm test -- --host selenium
+  links:
+    - selenium
+  volumes:
+    - ~/Desktop/temp:/out
+
+selenium:
+  image: selenium/standalone-chrome
+  expose:
+    - "4444"
+  log_driver: "none"

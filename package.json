@@ -1,0 +1,23 @@
+{
+  "name": "dockerize-webdriverio",
+  "version": "1.0.0",
+  "description": "A dockerized environment for webdriverIO tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf"
+  },
+  "repository": "https://github.com/ricca509/dockerize-webdriverio",
+  "keywords": [
+    "docker",
+    "webdriverio"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.0.2",
+    "wdio-mocha-framework": "^0.6.4",
+    "@wdio/sync": "^5.4.20",
+    "webdriverio": "^4.0.7",
+    "wdio-screenshot": "^0.6.0",
+    "fs": "0.0.1-security"
+  }
+}
