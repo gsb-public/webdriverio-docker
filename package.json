@@ -1,5 +1,5 @@
 {
-  "name": "dockerize-webdriverio",
+  "name": "webdriverio-docker",
   "version": "1.0.0",
   "description": "A dockerized environment for webdriverIO tests",
   "main": "index.js",
