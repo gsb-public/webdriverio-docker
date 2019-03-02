@@ -6,7 +6,7 @@
   "scripts": {
     "test": "wdio wdio.conf"
   },
-  "repository": "https://github.com/ricca509/dockerize-webdriverio",
+  "repository": "https://github.com/gsb-public/webdriverio-docker",
   "keywords": [
     "docker",
     "webdriverio"
